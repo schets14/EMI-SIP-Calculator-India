@@ -1,0 +1,12 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+      - echo "Publishing static privacy policy website"
+  artifacts:
+    baseDirectory: privacy-policy-site
+    files:
+    - "**/*"
+  cache:
+    paths: []
