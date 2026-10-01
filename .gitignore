@@ -1,0 +1,4 @@
+# Android release signing material (never commit secrets or keystores)
+android/key.properties
+android/*.jks
+android/*.keystore
